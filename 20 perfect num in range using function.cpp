@@ -23,7 +23,7 @@ int checkPerfect(int n1)
     {
         if(n1 % i == 0)
         {
-            sum += i;
+            sum = sum + i;
         }
     }
     if(sum == n1)

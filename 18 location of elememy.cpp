@@ -13,8 +13,7 @@ int main()
     {
         if ( array[i] == search )
         {
-            printf("%d is present at location %d.\n", search, i+1);
-            break;
+            printf("%d is present at location %d.\n", search, i+1);   
         }
     }
     if ( i == number )

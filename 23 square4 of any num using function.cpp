@@ -8,7 +8,7 @@ scanf("%d",&no);
 square = func(no);
 printf("\n Square of no is : %d ", square);
 }
-int func(int temp)
+int func(int no)
 {
-return temp*temp;
+return no*no;
 }

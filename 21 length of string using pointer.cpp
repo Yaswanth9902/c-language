@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-	char str[20],*pt;
+	char str[200],*pt;
 	int i=0;
 	printf("enter a string : ");
 	gets(str);
-	pt=str;
+	pt=&str[0];
 	while(*pt!='\0')
 	{
 		i++;

@@ -4,18 +4,17 @@ int main()
    int arr1[10];
    int i,n, sum = 0;
    int *pt;
+   pt = &arr1[0];
    printf(" Input the number of elements to store in the array (max 10) : ");
    scanf("%d",&n);
    printf(" Input %d number of elements in the array : \n",n);
    for(i=0;i<n;i++)
       {
-	  printf(" element - %d : ",i+1);
 	  scanf("%d",&arr1[i]);
 	  } 	
-   pt = arr1;
    for (i = 0; i < n; i++) {
-      sum = sum + *pt;
-      pt++;
+      sum = sum + i;
+      i++;
    }
    printf(" The sum of array is : %d\n", sum);
 }

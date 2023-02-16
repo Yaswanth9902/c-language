@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
+int oddeven(int);
 int main()
 {
-	int oddeven(int);
 	int num;
 	printf("enter a number ");
 	scanf("%d",&num);

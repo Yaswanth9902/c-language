@@ -15,7 +15,7 @@ main()
 int checkprime(int a)
 {
    int c;
-   for ( c = 2 ; c <= a - 1 ; c++ )
+   for ( c = 1 ; c <= a - 1 ; c++ )
    { 
       if ( a%c == 0 )
      return 0;
